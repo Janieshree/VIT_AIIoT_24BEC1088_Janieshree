@@ -1,1 +1,13 @@
 
+Components used in Simulation:
+Hardware components:
+-	ESP32 – Microcontroller that acts as the brain of the system; processes sensor data, runs control logic and provides Wi-Fi connectivity
+-	DS1307 RTC Module – Provides real-time accurate time which is used to time stamp the temperature reading
+-	DHT22 Sensor – Measures the ambient temperature and relative humidity; has a wider range of readings and applicable for industrial environments than DHT11 sensor
+-	LED – Visual indicator for warning of exceeded temperature
+-	Resistor - To protect the LED from burning from excess voltage
+Software Components:
+-	Wokwi – Online simulation platform used to design the circuit
+-	Wokwi Code Editor – Program of the code is written and uploaded to the ESP32
+-	ThingSpeak – Online cloud environment used to transmit data from ESP32 
+-	GitHub – Documentation of project along with source code
