@@ -2,7 +2,7 @@
 
 Simulating a real-time clock and temperature monitoring system, that tracks temperature readings and issues a warning message when the predefined limit is exceeded.
 
-Problem addessed:
+**Problem addessed:**
 
 In industrial environments, where mass production is done, the conditions to ensure safe and efficient production must be maintained. For example, the servers, cold storage units and control panels in manufacturing industries must be maintained at a specific temperature in order to avoid fire hazards, spoilage of products and prevent extensive losses and also to ensure the safety of the workers. 
 
