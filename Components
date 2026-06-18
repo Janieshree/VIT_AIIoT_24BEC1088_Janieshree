@@ -6,8 +6,15 @@ Hardware components:
 -	DHT22 Sensor – Measures the ambient temperature and relative humidity; has a wider range of readings and applicable for industrial environments than DHT11 sensor
 -	LED – Visual indicator for warning of exceeded temperature
 -	Resistor - To protect the LED from burning from excess voltage
+
 Software Components:
 -	Wokwi – Online simulation platform used to design the circuit
 -	Wokwi Code Editor – Program of the code is written and uploaded to the ESP32
 -	ThingSpeak – Online cloud environment used to transmit data from ESP32 
 -	GitHub – Documentation of project along with source code
+
+Libraries used in Wokwi:
+-	WiFi.h – establish Wi-Fi connectivity in ESP32
+-	RTCLib (Adafruit) – interface and read time from the DS1307 module
+-	DHT sensor library for ESPx – read temperature and humidity from the DTH22 sensor using any ESP board
+-	ThingSpeak.h – allows API Key from ThingSpeak to be used to format and transmit data from the ESP32
